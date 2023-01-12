@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB80191E-5A1F-CEA8-744C-59D3D89ACF97" name="KUPAC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:25:40 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>KPC</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_kupca" id="2C57D3C3-E849-1524-0213-7126718F7D8B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:26:05 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="BF0AB250-0C76-3752-F2F4-818090E2C1EF">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:26:28 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="8538C37A-0784-5FA4-E7B2-A0C5269F3CC0">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:26:45 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezime" id="1D2F1357-50CF-8AD5-C162-2FDA0EE10900">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:26:58 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_telefona" id="7F200933-D54A-BFBC-FF90-3E3534DDDD46">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:27:17 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iznos_kupnje" id="59344982-D2F5-0337-AFCE-2641DA5E6D35">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:27:34 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email1" id="2D0A4E35-E8C4-281B-82CB-B115029AD3E4">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:55:49 UTC</createdTime>
+<generatorID>F034E1DC-22AA-16CC-A467-BC1B5176341B</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AC4E3330-4450-1FF2-80D7-21F7A6A2C3CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7D6E313-AE4D-2234-708B-73B17496B03C" name="KUPAC PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:26:26 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C57D3C3-E849-1524-0213-7126718F7D8B</attributeRef>
+<attributeRef>ED67BB4F-E960-0D60-B969-1DD2AE580D32</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="79D8AD0E-56C3-8B66-B9D7-D612F65C0AE3" name="email">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:32:59 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<newElementsIDs>BF0AB250-0C76-3752-F2F4-818090E2C1EF</newElementsIDs>
+<usedAttributes>
+<attributeRef>BF0AB250-0C76-3752-F2F4-818090E2C1EF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

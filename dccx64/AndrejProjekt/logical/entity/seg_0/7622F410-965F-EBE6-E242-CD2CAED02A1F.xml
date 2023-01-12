@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7622F410-965F-EBE6-E242-CD2CAED02A1F" name="NARUČENI ARTIKL">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:14:48 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>NAA</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Količina" id="61528ED9-A33E-4B7F-4B0B-D701243559D8">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:15:18 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_narudzba" id="6FC2B9BE-A63E-64D1-DBE9-316804B1190B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:46:30 UTC</createdTime>
+<generatorID>B7BDD145-BD9A-FEBE-0DDC-179AA2267738</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<referedAttribute>ADD9B731-CBE2-DEA5-2C62-E30065A63096</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_artikla" id="DAA74101-90D6-589B-EF54-AD6293BEA8A6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:48:06 UTC</createdTime>
+<generatorID>80FE41E1-64A3-6867-9FD7-91AAE8B0E102</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<referedAttribute>0CA8D6E9-4EFC-79C9-D944-7D2652A45642</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2E06C26C-5C5C-8D6F-0CCC-754B893C7D24" name="NARUČENI ARTIKL PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:47:04 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6FC2B9BE-A63E-64D1-DBE9-316804B1190B</attributeRef>
+<attributeRef>DAA74101-90D6-589B-EF54-AD6293BEA8A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

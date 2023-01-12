@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35501DC2-0956-B005-A7C6-2C8BAD4E837A" name="ARTIKL">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:15:42 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ART</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_artikla" id="0CA8D6E9-4EFC-79C9-D944-7D2652A45642">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:16:01 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv" id="3346E16D-7F58-6F64-6DB0-0BA25EFC9F9F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:16:17 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Opis" id="FA129B12-BE5B-898F-8E81-FD40B4D6217B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:16:53 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Grupa" id="8B65BF44-3F9C-3A82-2E0C-7B4B00CE2CC8">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:17:22 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Boja" id="29F3735B-0E04-0F04-C066-554B77F47B88">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:17:36 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Veličina" id="F9DEB5D4-7AED-BE37-911C-6C7A19A38A23">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:17:52 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_skladišta" id="E9A0F2A8-3469-3F4C-8857-88E96F5DCB42">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:48:48 UTC</createdTime>
+<generatorID>E823F30A-8B75-D435-CBC8-50D162C31CB5</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<referedAttribute>BB8FEBFD-B49A-503F-8589-56AB50961F37</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DFA7111D-4B2E-F84E-D27E-9DE7E850D388" name="ARTIKL PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:16:15 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0CA8D6E9-4EFC-79C9-D944-7D2652A45642</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

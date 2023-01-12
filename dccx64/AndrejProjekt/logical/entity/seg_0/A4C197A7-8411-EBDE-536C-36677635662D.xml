@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4C197A7-8411-EBDE-536C-36677635662D" name="TIM">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 11:58:42 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TMV</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_tima" id="DBD42386-853A-542D-5D2A-29F88F081775">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:00:32 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime_tima" id="4E89F010-2CEE-8824-358A-3C363CBB53BD">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:02:56 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_igraca" id="5B7E9204-3FC0-F82C-7907-5C27FB612458">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:04:33 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Popust" id="8322F3B4-0488-C6E2-DEE2-3AF35F9A96D7">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:06:18 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_kupca" id="C1C7485A-2C55-4BFF-E639-71113A0DE9C6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:39:26 UTC</createdTime>
+<generatorID>5FE650E2-9179-1735-018C-611E1CC3F65C</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<referedAttribute>2C57D3C3-E849-1524-0213-7126718F7D8B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email1" id="3FF538F6-8D5E-4D8C-8830-D8D2F7EA119F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:39:26 UTC</createdTime>
+<generatorID>5FE650E2-9179-1735-018C-611E1CC3F65C</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<referedAttribute>ED67BB4F-E960-0D60-B969-1DD2AE580D32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="61B57128-AD9B-C725-CE23-D731E7E05AE3" name="TIM PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:02:03 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DBD42386-853A-542D-5D2A-29F88F081775</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

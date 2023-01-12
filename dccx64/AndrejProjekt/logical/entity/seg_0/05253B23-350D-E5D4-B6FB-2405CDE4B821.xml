@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05253B23-350D-E5D4-B6FB-2405CDE4B821" name="PRODAJNI PREDSTAVNIK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:21:19 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PPC</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="email" id="AC4E3330-4450-1FF2-80D7-21F7A6A2C3CA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:21:43 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="F96DC0CF-4544-B087-6660-F73DAF0B9B51">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:22:00 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezime" id="739EA147-6E0D-3E60-8369-A0F2049956AE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:22:10 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ulica" id="4493555A-8536-3379-1F51-EE58286C36DC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:22:46 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kućni_broj" id="24C220A4-3983-085D-0716-7B9846CCE2B6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:23:13 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_telefona" id="3B17BDD7-9252-FE10-2558-88DE57216D46">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:23:27 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postotak_provizije" id="A88780F5-5C3F-B88D-B731-FCD1DF95D6B1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:24:20 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email1" id="E731A6BE-A48A-6601-D508-1F0009A6E557">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:41:16 UTC</createdTime>
+<generatorID>E525E06D-2A4C-CF9B-B9E9-16A11C7B0E6E</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AC4E3330-4450-1FF2-80D7-21F7A6A2C3CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Poštanski_broj" id="3F46A0E5-8F39-5AA6-E948-9DF411347F7F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:41:52 UTC</createdTime>
+<generatorID>6CA67D7D-8208-32F5-79BF-873DBD6D1EAE</generatorID>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<referedAttribute>F7CEE113-EBC8-3D34-D4FD-375DC5F75339</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5643D8A-63CA-0243-B8C3-A3441836EB78" name="PRODAJNI PREDSTAVNIK PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:21:56 UTC</createdTime>
+<ownerDesignName>AndrejProjekt</ownerDesignName>
+<engineerTo>
+<item key="474766C4-AFDD-5B8E-193E-4E2AF8C6A1B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AC4E3330-4450-1FF2-80D7-21F7A6A2C3CA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
